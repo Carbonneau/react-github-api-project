@@ -8,6 +8,7 @@ this.props.children will correspond to the current URL's component.
 If the URL is only / then the IndexRoute's component will be the child (Search component)
 If the URL is /user/:username then the User component will be displayed.
 */
+
 var App = React.createClass({
     render: function() {
         return (
